@@ -1,6 +1,8 @@
 # srujan-portfolio
 shape ai web-dev-bootcamp final project
 
+# To see the website [CLICK HERE](https://kasojusrujan.github.io/srujan-portfolio/)  
+
 # SHAPEAI WEB DEV WITH BOOTSTRAP BOOTCAMP
 Hi I made this project during the 7 Days Free Bootcamp, conducted by <b> SHAPEAI
 </b>.
@@ -28,4 +30,4 @@ be</a>
 <li><a href=
 "https://github.com/shapeai">GitHub</a>
 
-# To see the website [CLICK HERE](https://kasojusrujan.github.io/srujan-portfolio/)  
+

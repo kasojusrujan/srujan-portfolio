@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srujan Kasoju</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/33d267e4c4.js" crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">HOME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <a class="nav-link " data-value="About Me" href="#">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-value="blog" aria-current="page" href="#my-skills">My Skills</a> </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-value="team" href="#my-works">         My works</a> </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-value="contact" href="#contact-us">Contact Me</a> </li>
+                </ul>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- about me -->
+
+    <section class="d-flex justify-content-around" id="about-me">
+        <div class="bg-img">
+            <img src="./pic.png" alt="my pic" width="350px" class="img-fluid">
+        </div>
+
+        <div class="d-flex flex-column justify-content-center writing">
+            <h2>
+                Hi.. I am
+            </h2>
+            <h1>
+                Kasoju Srujan
+            </h1>
+            <p>
+                A full stack developer!
+            </p>
+            <button type="button" class="btn btn-outline">
+        My Resume
+    </button>
+        </div>
+    </section>
+
+    <!-- My Skills -->
+
+    <section id="my-skills">
+        <h1 class="head"> My skill Sets</h1>
+        <div class="d-flex justify-content-evenly box">
+
+
+            <div>
+
+                <i class="fab fa-html5 fa-8x" style="color: #f4470b;"></i>
+
+                <h1>HTML</h1>
+            </div>
+            <div>
+
+                <i class="fab fa-css3-alt fa-8x" style="color: #007bff;"></i>
+                <h1> CSS3</h1>
+            </div>
+            <div>
+                <i class="fab fa-bootstrap fa-7x" style="color: #730fef;"></i>
+                <h1>Bootstrap</h1>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- my works -->
+
+    <section class="mt-4 p-4" id="my-works">
+        <h1> My works</h1>
+        <div class="d-flex flex-column flex-md-row justify-content-md-evenly gap-3">
+            <div class="card mt-3 mb-2" style="width: 18rem;">
+                <img src="./ilya-pavlov-OqtafYT5kTw-unsplash.jpg" class="card-img-top" alt="image">
+                <div class="card-body">
+                    <h5 class="card-title">Portfolio Website</h5>
+                    <p class="card-text">Built an amazing responsive website with Bootstrap.</p>
+                    <a href="#" class="btn bt ">View Source <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+
+
+            <div class="card mt-3 mb-2" style="width: 18rem;">
+                <img src="./kevin-bhagat-zNRITe8NPqY-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Portfolio Website</h5>
+                    <p class="card-text">Built an amazing responsive website with Bootstrap.</p>
+                    <a href="#" class="btn bt">View Source  <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+
+
+            <div class="card mt-3 mb-2" style="width: 18rem;">
+                <img src="./sigmund-VsomuMUKTrw-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Portfolio Website</h5>
+                    <p class="card-text">Built an amazing responsive website with Bootstrap.</p>
+                    <a href="#" class="btn bt">View Source <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contact form  -->
+    <div class="contact-form">
+        <div class="container" id="contact-us">
+            <form>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h1>Get in Touch</h1>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 right">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control form-control-lg">
+          
+         </textarea>
+                        </div>
+                        <input type="submit" class="btn btn-secondary btn-block " value="Send" name="submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        Copyright &copy; All rights are Reserved!
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

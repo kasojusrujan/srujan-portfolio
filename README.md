@@ -27,3 +27,5 @@ href=
 be</a>
 <li><a href=
 "https://github.com/shapeai">GitHub</a>
+
+# To see the website [CLICK HERE](https://kasojusrujan.github.io/srujan-portfolio/)  
